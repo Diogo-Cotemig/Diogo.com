@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(to top, #C6AF5E, #ce9c6d);
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+}
+.Cabeca{
+    height: 100px;
+    width: 100%;
+    background: rgb(50,28,213);
+    background: linear-gradient(90deg, rgba(50,28,213,1) 0%, rgba(9,9,121,1) 33%, rgb(14, 123, 145) 100%);
+ }
+.logo{
+    padding: 8px;
+    height: 80px;
+    width: 150px;
+}
+.Boas{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.Rei{
+margin-left: 200px;
+margin-top: 30px;
+}
+.Imagem2{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.Rei::after{
+    margin-left: 80px;
+    content: 'Dono da Pizzaria, Diogo Royal Silva';
+    margin-top: 30px;
+}
+
+.Quadro{
+    color: beige;
+    text-align: left;
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    background-color: #04243B;
+    margin-left: 900px ;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.Juncao{
+    display: flex;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Menu{
+    padding-top: 20px;
+    padding-left: 300px ;
+}
+button{
+    height: 100px;
+    width: 200px;
+   font-size: 30px;
+   background-color: #E7BD82;
+   
+}
+button:hover{
+    transition: 2s;
+    height: 110px;
+    width: 200px;
+    background-color: #e9be25;
+}
+
+b{
+    color:red;
+}
+
+/*Parte 2*/
+
+.Main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px 100px 100px 100px 100px 100px;
+}
+
+
+.ImagemRei {
+    grid-column: 2/4;
+    grid-row: 2/7;
+}
+#contact1 {
+    grid-column: 5/8;
+    grid-row: 2/4;
+}
+#contact2 {
+    grid-column: 5/8;
+    grid-row: 4/7;
+}
+.ImagemReal{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    border-radius: 30%;
+    height: 50px;
+    width: 150px;
+    align-content: center;
+    text-align: center;
+    margin-left: 140px;
+    background-color: #e9ba79;
+}
+.FlexButton{
+    display: flex;
+    margin-top: 50px;
+}
+
+.button:hover{
+    transition: 3s;
+    background-color: #ECC440;
+    height: 65px;
+}
+#button:visited {
+    color: #ffffff; 
+    background-color: rgb(0, 0, 0);
+}
+
+#button:hover, 
+#button:active { 
+    text-decoration: underline; 
+    color: #ffffff; 
+    background-color:  rgb(0, 0, 0);
+} 
+/*Fim do Menu*/

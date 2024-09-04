@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(to top, #C6AF5E, #ce9c6d);
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+}
+.Cabeca{
+    height: 100px;
+    width: 100%;
+    background: rgb(50,28,213);
+    background: linear-gradient(90deg, rgba(50,28,213,1) 0%, rgba(9,9,121,1) 33%, rgb(14, 123, 145) 100%);
+ }
+.logo{
+    padding: 8px;
+    height: 80px;
+    width: 150px;
+}
+ /*cabeçario*/
+h1{
+
+    width: 800px;
+    text-align: end;
+    padding-top: 50px;
+    font-family: "Dancing Script", cursive;
+}
+
+.container {
+    position: relative;
+    left: 50px;
+    width: 1200px;
+    height: 600px;
+    background: rgb(25,7,144);
+    background: linear-gradient(90deg, rgb(64, 50, 156) 0%, rgba(29,29,94,1) 33%);
+    color: white;
+   
+}
+
+
+.overlapping-image {
+    position: absolute;
+    top: 250px; 
+    left: 750px; 
+    width: 800px; 
+    height: 500px;
+    z-index: 99; 
+}
+
+
+.info-1 {
+    padding: 60px;
+    
+}
+
+.info-1 p{
+    font-size: 30px;
+    margin: 12px;
+}
+
+input{
+   position:sticky;
+   left: 340px;
+}
+
+.content3{
+    display: flex;
+    padding: 60px;
+    margin-left: 8px ;
+}
+.button{
+    border-radius: 30%;
+    height: 50px;
+    width: 150px;
+    align-content: center;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 40px;
+    background-color: #E7BD82;
+}
+
+
+.button:hover{
+    transition: 3s;
+    background-color: #ECC440;
+    height: 65px;
+}
+h3{     
+    width: 86%;
+    text-align: end;
+}
+
+.info-1 a{
+    color: aliceblue;
+    margin-left: 10%;
+}

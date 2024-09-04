@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(to top, #C6AF5E, #ce9c6d);
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+}
+.Cabeca{
+    height: 100px;
+    width: 100%;
+    background: rgb(50,28,213);
+    background: linear-gradient(90deg, rgba(50,28,213,1) 0%, rgba(9,9,121,1) 33%, rgb(14, 123, 145) 100%);
+ }
+ .logo{
+    padding: 8px;
+    height: 80px;
+    width: 150px;
+}
+/*Cabeçario*/
+
+h1{
+
+    width: 800px;
+    text-align: end;
+    padding-top: 50px;
+    font-family: "Dancing Script", cursive;
+}
+
+.container {
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    height: 600px;
+    background: rgb(25,7,144);
+    background: linear-gradient(90deg, rgba(25,7,144,1) 0%, rgba(29,29,94,1) 33%);
+    color: white;
+   
+}
+
+
+.overlapping-image {
+    position: absolute;
+    top: 375px; 
+    left: 850px; 
+    width: 200px; 
+    height: auto;
+    z-index: 99; 
+}
+
+
+.content {
+    display: flex;
+    padding: 60px;
+}
+
+input{
+   position:sticky;
+   left: 340px;
+}
+.content2{
+    display: flex;
+    padding: 60px;
+}
+.content3{
+    display: flex;
+    padding: 60px;
+}
+.button{
+    border-radius: 30%;
+    height: 50px;
+    width: 150px;
+    align-content: center;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 40px;
+    background-color: #f3de92;
+}
+
+
+.button:hover{
+    transition: 3s;
+    background-color: #ECC440;
+    height: 65px;
+}
+h3{     width: 87%;
+    text-align: end;
+
+}

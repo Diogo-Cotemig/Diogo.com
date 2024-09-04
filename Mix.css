@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to top, #C6AF5E, #ce9c6d);
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.Cabeca {
+    height: 100px;
+    width: 100%;
+    background: rgb(50, 28, 213);
+    background: linear-gradient(90deg, rgba(50, 28, 213, 1) 0%, rgba(9, 9, 121, 1) 33%, rgb(14, 123, 145) 100%);
+}
+
+.logo {
+    padding: 8px;
+    height: 80px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Limitada {
+    height: 80px;
+    width: 250px;
+    border-radius: 40%;
+    margin-left: 10px;
+    margin-top: 200px;
+    background-color: #E7BD82;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.boneco {
+    height: 300px;
+    width: 280px;
+}
+
+.botao1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #E7BD82;
+    border-radius: 40%;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    /*GRID*/
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.botao1:hover{
+transition: 3s;
+background-color: #ECC440;
+}
+
+.botao {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #E7BD82;
+    border-radius: 40%;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    /*GRID*/
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.botao:hover{
+    transition: 3s;
+    background-color: #ECC440;
+    }
+
+b {
+    font-size: 25px;
+    
+}
+
+/*GRID*/
+.Rid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 280px 300px 100px 100px;
+}
+
+.Rid-1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.Rid-3 {
+    grid-column: 2;
+    margin-top: 10px;
+    grid-row: 1;
+}
+
+/*GRID*/
+
+/*Container*/
+.container {
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    height: 600px;
+    background-color: #E7BD82;
+    border-radius: 15%;
+}
+
+
+.overlapping-image {
+    position: absolute;
+    top: 370px;
+    left: 720px;
+    width: 680px;
+    height: 400px;
+    z-index: 99;
+}
+
+
+.content {
+    padding: 60px;
+}
+
+.button {
+    border-radius: 30%;
+    height: 50px;
+    width: 150px;
+    align-content: center;
+    text-align: center;
+    background-color: #f7c279;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+
+.button:hover {
+    transition: 3s;
+    background-color: #ECC440;
+    height: 55px;
+}
+
+.socorro {
+    display: flex;
+    width: 100%;
+
+}
+
+.socorro p {
+    margin-left: 15%;
+    margin-top: 20px;
+}
